@@ -11,6 +11,8 @@ Just get the notebook and execute the function **run()** passing some params: li
 
 ```py
 
-run(["Embraer+190-200IGW", "Embraer+190-400STD", "Airbus+A220-371"], range(1,11), "dataset/train/")
+run(["Embraer+190-200IGW", "Embraer+190-400STD", "Airbus+A220-371"], 
+    range(1,11), 
+    "dataset/train/")
 
 ```
