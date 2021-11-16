@@ -1,13 +1,12 @@
 # Aircrafts Dataset Generator
 
-Use this notebook generatedataset.ipynb to crawl the site JetPhotos.com and create a dataset on aircraft models. 
-
-I have created this implementation during a course of Deep Learning due students ask me about real data to evaluate their convolutional neural networks.
+Use this notebook generatedataset.ipynb to crawl the site JetPhotos.com and create a dataset of aircraft models containing 255x400 images. 
+I have created this implementation during a course of Deep Learning due to students asked me about real data to evaluate their convolutional neural networks.
 
 
 ## Usage
 
-Just get the notebook and execute the function **run()** passing some params: list of aircraft models, list of pages will be downloaded and directory to save the images.
+Just get the notebook and execute the function **run()** passing some params: list of aircraft models, list of pages will be downloaded and directory to save the images. 
 
 ```py
 
@@ -16,7 +15,7 @@ run(["Embraer+190-400STD", "Airbus+A220-371"],
     "dataset/train/")
 
 ```
-Executing the avobe code should produce some thing about the following:
+Executing the above code should produce something like following:
 ```
 |--- dataset
 |    |--- train
