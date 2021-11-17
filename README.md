@@ -1,6 +1,6 @@
 # Aircrafts Dataset Generator
 
-Use this notebook generatedataset.ipynb to crawl the site JetPhotos.com and create a dataset of aircraft models containing 255x400 images. 
+Use the notebook generatedataset.ipynb to crawl the site JetPhotos.com and create a dataset of aircraft models containing 255x400 images. 
 I have created this implementation during a course of Deep Learning due to students asked me about real data to evaluate their convolutional neural networks.
 
 
